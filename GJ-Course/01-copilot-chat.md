@@ -27,23 +27,31 @@ In this exercise, you'll use both modes to complete tasks relevant to G&J Pepsi.
 You need to prepare talking points about beverage industry trends for an upcoming leadership meeting.
 
 1. Open **Microsoft Edge** and navigate to [https://www.microsoft365.com](https://www.microsoft365.com).
-2. Select **Copilot** in the left navigation pane.
+2. Select **Copilot** in the left navigation pane if you're not immediately brought to Copilot.
 3. Ensure the **Web** toggle is selected at the top of the chat.
 4. Enter the following prompt:
 
-    **I work at a Pepsi bottling and distribution company. I need to prepare for a leadership meeting next week. Summarize the top 5 trends in the beverage distribution industry for 2026, focusing on sustainability initiatives, supply chain automation, and changing consumer preferences. Present each trend with a brief description and one action item our company could consider.**
+    ```
+    I work at a Pepsi bottling and distribution company. I need to prepare for a leadership meeting next week. Summarize the top 5 trends in the beverage distribution industry for 2026, focusing on sustainability initiatives, supply chain automation, and changing consumer preferences. Present each trend with a brief description and one action item our company could consider.
+    ```
 
 5. Review the results. Ask a follow-up question to go deeper on one trend:
 
-    **Expand on the supply chain automation trend. What specific technologies are beverage distributors adopting, and what ROI are they seeing? Include examples from companies similar to ours.**
+    ```
+    Expand on the supply chain automation trend. What specific technologies are beverage distributors adopting, and what ROI are they seeing? Include examples from companies similar to ours.
+    ```
 
 6. Now try a brainstorming prompt:
 
-    **I'm leading a cross-functional initiative to improve employee engagement across our distribution centers and corporate offices. Brainstorm 10 creative ideas that would work for a beverage distribution company with both warehouse/field staff and office-based employees. Consider budget-friendly options.**
+    ```
+    I'm leading a cross-functional initiative to improve employee engagement across our distribution centers and corporate offices. Brainstorm 10 creative ideas that would work for a beverage distribution company with both warehouse/field staff and office-based employees. Consider budget-friendly options.
+    ```
 
 7. Review the ideas. Ask Copilot to refine the list:
 
-    **Narrow this to the top 5 that would be easiest to implement within 90 days. For each, include estimated effort (low/medium/high) and which departments would need to be involved.**
+    ```
+    Narrow this to the top 5 that would be easiest to implement within 90 days. For each, include estimated effort (low/medium/high) and which departments would need to be involved.
+    ```
 
 ---
 
@@ -55,15 +63,21 @@ Switch to Work mode to query your internal documents.
 2. Attach the **GJ_Quarterly_Business_Review.docx** file from your OneDrive.
 3. Enter:
 
-    **Summarize this quarterly business review into 5 key takeaways. Highlight any metrics that are below target and any areas that exceeded expectations. Format as bullet points.**
+    ```
+    Summarize this quarterly business review into 5 key takeaways. Highlight any metrics that are below target and any areas that exceeded expectations. Format as bullet points.
+    ```
 
 4. Review the summary. Ask a follow-up:
 
-    **Based on this review, what are the top 3 risks heading into next quarter? And what are 3 opportunities we should prioritize?**
+    ```
+    Based on this review, what are the top 3 risks heading into next quarter? And what are 3 opportunities we should prioritize?
+    ```
 
-5. Now try summarizing a different type of document. Attach the **GJ_New_Hire_Onboarding_Guide.docx** file:
+5. Now try summarizing a different type of document. Attach the **GJ_New_Hire_Onboarding_Guide.docx** file and enter the below prompt:
 
-    **I'm a manager onboarding a new employee next week. Summarize the key steps I need to complete in the first 30 days according to this onboarding guide. Format as a checklist I can print.**
+    ```
+    I'm a manager onboarding a new employee next week. Summarize the key steps I need to complete in the first 30 days according to this onboarding guide. Format as a checklist I can print.
+    ```
 
 6. Copy the checklist output — you could paste this into a Word document or email to yourself.
 
@@ -98,7 +112,9 @@ Copilot Pages let you turn a Copilot Chat response into a persistent, editable p
 
 1. In **Copilot Chat** (Work mode), attach the **GJ_Quarterly_Business_Review.docx** file and enter:
 
-    **Create a summary of Q4 performance with sections for Revenue, Operations, People, and Risk. Use bullet points under each section. Highlight the top concern in each area.**
+    ```
+    Create a summary of Q4 performance with sections for Revenue, Operations, People, and Risk. Use bullet points under each section. Highlight the top concern in each area.
+    ```
 
 2. Review the response. Select the **Edit in Pages** icon (or "Create a page" if prompted) to turn this response into a Copilot Page.
 
@@ -107,14 +123,15 @@ Copilot Pages let you turn a Copilot Chat response into a persistent, editable p
     - Continue prompting Copilot to refine specific sections
     - Share the page with colleagues by selecting **Share** in the top-right corner
 
-4. Try adding to the page with a follow-up prompt:
+<!-- 4. Try adding to the page with a follow-up prompt:
 
-    **Add a "Next Steps" section at the bottom with 3 recommended actions for Q1, based on the risks identified above.**
+    ```
+    Add a "Next Steps" section at the bottom with 3 recommended actions for Q1, based on the risks identified above.
+    ```
 
 5. Share the page with a colleague or save it for your own reference.
 
-> [!TIP]
-> Pages are ideal for collaborative work — think of them as AI-assisted shared documents. Use them for meeting prep, project briefs, or any content you want to co-edit with your team.
+>**Tip:** Pages are ideal for collaborative work — think of them as AI-assisted shared documents. Use them for meeting prep, project briefs, or any content you want to co-edit with your team. -->
 
 ---
 
@@ -124,19 +141,22 @@ One of the most impactful ways to use Copilot is as part of your daily routine. 
 
 1. In **Copilot Chat** (Work mode), enter:
 
-    **What happened yesterday that I should know about? Summarize any important emails, meeting notes, and chat messages from the last 24 hours. Highlight anything that needs my attention or a response.**
+    ```
+    What happened yesterday that I should know about? Summarize any important emails, meeting notes, and chat messages from the last 24 hours. Highlight anything that needs my attention or a response.
+    ```
 
 2. Review the catch-up summary. Follow up on anything urgent:
 
-    **Were there any action items assigned to me in yesterday's meetings or email threads?**
+    ```
+    Were there any action items assigned to me in yesterday's meetings or email threads?
+    ```
 
 3. Plan your day:
 
-    **Based on my calendar for today and the items from yesterday that need follow-up, suggest a prioritized task list for today.**
+    ```
+    Based on my calendar for today and the items from yesterday that need follow-up, suggest a prioritized task list for today.
+    ```
 
-> [!TIP]
-> Make this a daily habit. Open Copilot Chat first thing in the morning, run a catch-up prompt, and start your day informed. This single workflow can save 15–20 minutes every morning.
+>**Tip:** Make this a daily habit. Open Copilot Chat first thing in the morning, run a catch-up prompt, and start your day informed. This single workflow can save 15–20 minutes every morning.
 
-> [!TIP]
-> **Pro tip:** You can switch between Web and Work modes within the same conversation. Use Web for external research and switch to Work when you need to reference your organizational files.
-
+>**Tip:** You can switch between Web and Work modes within the same conversation. Use Web for external research and switch to Work when you need to reference your organizational files.

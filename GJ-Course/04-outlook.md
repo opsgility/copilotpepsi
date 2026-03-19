@@ -27,27 +27,35 @@ Copilot in Outlook helps you draft emails faster, catch up on long threads, and 
 
 **Email A: Cross-functional announcement**
 
-1. In **Outlook on the web**, create a new email. Select the **Open Copilot** (pencil) icon to open the **Draft with Copilot** window.
+1. In **Outlook on the web** (outlook.com), create a new email. Select the **Open Copilot** (pencil) icon to open the **Draft with Copilot** window.
 
 2. Enter:
 
-    **Draft an email to all G&J Pepsi department heads announcing a new cross-functional task force on sustainability initiatives. The task force will meet bi-weekly starting May 1st. We need one representative from each department: Accounting, HR, IT, Sales, Operations, and Supply Chain. Explain why this matters to our business — reducing environmental impact, meeting customer expectations, and potential cost savings. Tone: professional but energizing. Ask each department head to nominate a representative by April 15th.**
+    ```
+    Draft an email to all G&J Pepsi department heads announcing a new cross-functional task force on sustainability initiatives. The task force will meet bi-weekly starting May 1st. We need one representative from each department: Accounting, HR, IT, Sales, Operations, and Supply Chain. Explain why this matters to our business — reducing environmental impact, meeting customer expectations, and potential cost savings. Tone: professional but energizing. Ask each department head to nominate a representative by April 15th.
+    ```
 
 3. Review the draft. Refine it:
 
-    **Make the opening more compelling — lead with a specific stat about sustainability in the beverage industry. Also add a brief "What to expect" section with 3 bullet points about the task force's first-quarter goals.**
+    ```
+    Make the opening more compelling — lead with a specific stat about sustainability in the beverage industry. Also add a brief "What to expect" section with 3 bullet points about the task force's first-quarter goals.
+    ```
 
-4. Select **Keep it** on your preferred draft.
+4. Select **Keep it**.
 
 **Email B: Sensitive communication**
 
 5. Create another new email. Open the Copilot prompt and enter:
 
-    **Draft an email to a warehouse manager whose team's safety incident rate has increased over the past quarter. The email should acknowledge the challenge without being accusatory, reference the specific metrics (incidents up 15% vs. last quarter), offer support (additional training resources, safety audit), and set up a meeting to discuss an action plan. Tone: supportive and constructive, not punitive.**
+    ```
+    Draft an email to a warehouse manager whose team's safety incident rate has increased over the past quarter. The email should acknowledge the challenge without being accusatory, reference the specific metrics (incidents up 15% vs. last quarter), offer support (additional training resources, safety audit), and set up a meeting to discuss an action plan. Tone: supportive and constructive, not punitive.
+    ```
 
 6. Review the draft. This is a sensitive topic — ask Copilot to adjust:
 
-    **Soften the opening — lead with appreciation for the team's hard work during a busy quarter before transitioning to the safety concern. Make sure it doesn't read like a warning letter.**
+    ```
+    Soften the opening — lead with appreciation for the team's hard work during a busy quarter before transitioning to the safety concern. Make sure it doesn't read like a warning letter.
+    ```
 
 7. Select **Keep it** when satisfied.
 
@@ -59,12 +67,15 @@ For this task, you'll practice the summarize capability. Since we're working in 
 
 1. Open any email thread in your **Outlook** inbox that has multiple replies (at least 3-4 messages).
 
-2. At the top of the email thread, select **Summary by Copilot** (or the Copilot icon if available at the top of the thread).
+2. At the top of the email thread, select the **Copilot** icon. Enter:
+
+    ```
+    Summarize the thread.
+    ```
 
 3. Review how Copilot condenses the conversation into key points, decisions, and action items.
 
-> [!NOTE]
-> If you don't have a long email thread available, try this alternative: Open **Copilot Chat** in Teams (Work mode), and ask: **"Summarize my most recent email threads from this week. What are the key action items I need to follow up on?"**
+>**Note:** If you don't have a long email thread available, try this alternative: Open **Copilot Chat** in Teams (Work mode), and ask: **"Summarize my most recent email threads from this week. What are the key action items I need to follow up on?"**
 
 4. Practice asking Copilot follow-up questions about the thread:
     - "What decisions were made?"
@@ -81,18 +92,20 @@ Copilot's coaching feature reviews your draft email and provides suggestions on 
 
 2. Highlight the entire email body. Select the **Open Copilot** (pencil) icon.
 
-3. In the Copilot menu, select **Coaching by Copilot** (or look for coaching suggestions).
+3. In the Copilot menu, select **Get coaching**.
 
 4. Review the coaching feedback. Copilot provides suggestions on:
     - **Tone** — Is the email formal, casual, direct, or potentially harsh?
     - **Clarity** — Are there confusing sentences or ambiguous requests?
     - **Reader sentiment** — How will the recipient likely feel reading this?
 
-5. Apply the suggestions you agree with. You can ask Copilot to make specific changes:
+5. Click **Apply all suggestions**. Click **Replace** once complete. You can also ask Copilot to make specific changes:
 
-    **Rewrite this email using a more direct and confident tone. Keep the same message but cut out any filler words or hedging language.**
+    ```
+    Rewrite this email using a more direct and confident tone. Keep the same message but cut out any filler words or hedging language.
+    ```
 
-6. Try changing the tone entirely — highlight the email, select Copilot, and choose **Change Tone**. Experiment with different presets (Formal, Casual, Direct) and compare the results.
+6. Try changing the tone entirely — highlight the email, select **Open Copilot**, and choose **Change Tone**. Experiment with different presets (Formal, Casual, Direct) and compare the results.
 
 ---
 
@@ -122,15 +135,23 @@ Draft it, iterate at least once, and use Coaching to polish it before finalizing
 
 Copilot can help you triage a busy inbox and identify what needs your attention first.
 
-1. Open **Copilot Chat** (Work mode) in Microsoft 365 or Teams.
+1. Open **Copilot Chat** (Work mode).
+
+    ```
+    https://m365.cloud.microsoft/
+    ```
 
 2. Enter:
 
-    **Review my inbox from the past 48 hours. Which emails need my response? Prioritize them by urgency: Critical (needs response today), Important (this week), and FYI (no action needed). Include a one-line summary of each.**
+    ```
+    Review my inbox from the past 48 hours. Which emails need my response? Prioritize them by urgency: Critical (needs response today), Important (this week), and FYI (no action needed). Include a one-line summary of each.
+    ```
 
 3. Review the prioritized list. Follow up:
 
-    **For the critical items, draft a brief reply to each. Keep the replies under 3 sentences and match the tone of the original sender.**
+    ```
+    For the critical items, draft a brief reply to each. Keep the replies under 3 sentences and match the tone of the original sender.
+    ```
 
 **Part B: Schedule management**
 
@@ -138,16 +159,20 @@ Copilot can help you prepare for your day by reviewing your calendar.
 
 1. In **Copilot Chat** (Work mode), enter:
 
-    **Look at my calendar for today and tomorrow. What meetings do I have? For any meetings with agendas or shared documents, give me a one-line summary of what each meeting is about and what I should prepare.**
+    ```
+    Look at my calendar for today and tomorrow. What meetings do I have? For any meetings with agendas or shared documents, give me a one-line summary of what each meeting is about and what I should prepare.
+    ```
 
 2. Follow up with:
 
-    **I need to find 30 minutes today to work on the quarterly business review. Based on my calendar, when is the best available slot?**
+    ```
+    I need to find 30 minutes today to work on the quarterly business review. Based on my calendar, when is the best available slot?
+    ```
 
 3. Try combining inbox and calendar:
 
-    **Are there any emails in my inbox that relate to meetings on my calendar this week? Summarize the connections so I can walk into each meeting prepared.**
+    ```
+    Are there any emails in my inbox that relate to meetings on my calendar this week? Summarize the connections so I can walk into each meeting prepared.
+    ```
 
-> [!TIP]
-> Making inbox triage and calendar review part of your morning routine with Copilot can save 15–20 minutes daily. The key is to be specific about the time window and the type of prioritization you need.
-
+>**Tip:** Making inbox triage and calendar review part of your morning routine with Copilot can save 15–20 minutes daily. The key is to be specific about the time window and the type of prioritization you need.

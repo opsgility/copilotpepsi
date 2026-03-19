@@ -16,8 +16,14 @@ In this workshop, you'll use Microsoft 365 Copilot across Copilot Chat, Word, Ex
 1. In the Windows taskbar, select **Microsoft Edge**.
 2. Navigate to the following URL to download the resource files:
 
+<<<<<<< HEAD
+    ```
+    https://github.com/opsgility/copilotpepsi/tree/main/GJ-ResourceFiles
+    ```
+=======
 **[ResourceFiles](https://github.com/opsgility/copilotpepsi/raw/refs/heads/main/GJ-ResourceFiles/ResourceFiles.zip)**
 
+>>>>>>> 11ec54f97cbf88a51e39f7041804ac98d9028daa
 
 3. Once the download completes, open **File Explorer** and navigate to your **Downloads** folder.
 4. Right-click the **ResourceFiles.zip** file and select **Extract All...**.
@@ -35,11 +41,10 @@ In this workshop, you'll use Microsoft 365 Copilot across Copilot Chat, Word, Ex
 
 ### Step 2: Upload Files to OneDrive
 
-1. In **Microsoft Edge**, navigate to [https://www.office.com](https://www.office.com) and sign in with your **Microsoft 365** credentials.
-2. Select **Apps** in the left navigation pane, then select **OneDrive**.
-3. In OneDrive, select **+ New** in the top-left corner, then select **Folder**. Name it **GJ-Workshop** and press **Enter**.
+1. In **Microsoft Edge**, navigate to [OneDrive](www.onedrive.com) and sign in with your **Microsoft 365** credentials.
+3. In OneDrive, select **+ Create or upload** in the top-left corner, then select **Folder**. Name it **GJ-Workshop** and press **Enter**.
 4. Open the **GJ-Workshop** folder you just created.
-5. Select **+ New** > **Files upload** (or drag and drop the files directly into the browser window).
+5. Select **+ Create or upload** > **Files upload**.
 6. In the File Explorer window that appears, navigate to the folder where you extracted the zip file. Select **all nine files** and then select **Open**.
 7. Wait for the upload to complete. You should see a confirmation message: **Uploaded 9 items**.
 8. Verify that all nine files appear in your **GJ-Workshop** folder.

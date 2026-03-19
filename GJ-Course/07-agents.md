@@ -24,9 +24,11 @@ In this exercise, you'll build an agent that helps G&J Pepsi employees answer co
 
 1. In **Microsoft Edge**, navigate to [https://www.microsoft365.com](https://www.microsoft365.com).
 2. Select **New agent** in the left navigation pane. This opens the **Agent Builder**.
-3. In the prompt on the **New Agent** page, describe your agent:
+3. Click the **Describe** tab, describe your agent:
 
-    **Create an agent called "G&J Employee Assistant." This agent helps G&J Pepsi employees find answers to common questions about company benefits, onboarding procedures, and workplace policies. It should use a friendly, professional tone suitable for all employees from warehouse staff to corporate leadership. The agent should only answer questions using the documents provided as knowledge sources — it should not make up information. If it doesn't know the answer, it should say so and suggest who to contact.**
+    ```
+    Create an agent called "G&J Employee Assistant." This agent helps G&J Pepsi employees find answers to common questions about company benefits, onboarding procedures, and workplace policies. It should use a friendly, professional tone suitable for all employees from warehouse staff to corporate leadership. The agent should only answer questions using the documents provided as knowledge sources — it should not make up information. If it doesn't know the answer, it should say so and suggest who to contact.
+    ```
 
 4. Select the **Send** icon to submit. Wait for Copilot to build the agent (1-2 minutes).
 
@@ -68,7 +70,9 @@ In this exercise, you'll build an agent that helps G&J Pepsi employees answer co
 
 6. On the **Describe** tab, ask Copilot to improve the instructions:
 
-    **Update the instructions to include: (1) When answering benefits questions, always specify the plan year (2026), (2) When the agent doesn't have enough information, direct employees to contact HR at hr@gjpepsi.com, (3) Always format answers with bullet points for readability.**
+    ```
+    Update the instructions to include: (1) When answering benefits questions, always specify the plan year (2026), (2) When the agent doesn't have enough information, direct employees to contact HR at hr@gjpepsi.com, (3) Always format answers with bullet points for readability.
+    ```
 
 7. Select **Update** to apply the changes.
 
@@ -103,69 +107,6 @@ For whichever agent you build:
 
 | Concept | Description |
 |---|---|
-| **Knowledge sources** | Documents the agent uses to answer questions. Up to 20 files (docx, xlsx, pdf, pptx, txt). |
-| **Instructions** | Rules that tell the agent how to behave — tone, format, boundaries. Max 8,000 characters. |
-| **Suggested prompts** | Starter questions shown to users. Help them understand what the agent can do. |
-| **"Only use specified sources"** | When enabled, the agent prioritizes your documents over general AI knowledge. |
-| **Sharing** | Agents are private by default. Share with specific people or your whole organization. |
-
----
-
-### Task 4: SharePoint-grounded agents (bonus, 10 min)
-
-Instead of uploading individual files, you can ground an agent in an entire **SharePoint site** — giving it access to a library of documents that updates automatically as content changes.
-
-1. In the **Agent Builder**, create a new agent or edit an existing one.
-
-2. Scroll to **Knowledge**. Instead of uploading files, select **Add SharePoint** (or "Add a SharePoint site").
-
-3. Enter the URL of a SharePoint site your team uses (e.g., your department's document library or an HR policies site).
-
-4. The agent will now have access to all documents in that SharePoint site as knowledge sources.
-
-5. Test the agent with questions that span multiple documents on the site:
-
-    **"What policies do we have about remote work?"**
-    **"When was our travel policy last updated and what changed?"**
-
-> [!NOTE]
-> SharePoint-grounded agents are more powerful than file-upload agents because they automatically pick up new and updated documents. Use them for departments with frequently changing content — HR policies, IT procedures, safety manuals.
-
----
-
-### Task 5: Declarative agents and advanced configuration (bonus, 10 min)
-
-For more control over agent behavior, you can configure agents using the **Copilot Studio** full experience (beyond the lite Agent Builder).
-
-**Declarative agents** are agents that extend Microsoft 365 Copilot with custom instructions and knowledge — they run inside Copilot Chat as a specialized mode rather than as a standalone bot.
-
-1. In the Agent Builder, explore the **Configure** tab in detail:
-    - **Instructions** — Review the auto-generated instructions. Try editing them to add specific rules:
-
-        **Add these rules: (1) Always cite the document name when answering, (2) If asked about something not in the knowledge sources, say "I don't have information about that — please contact [department] directly," (3) Never provide legal or medical advice.**
-
-    - **Capabilities** — Review what the agent can and cannot do. Consider whether it should be able to search the web or only use its knowledge sources.
-
-2. Explore advanced options:
-    - **Conversation starters** — Pre-defined prompts that appear when users first open the agent
-    - **Actions** — Connect the agent to external systems (Power Automate flows, APIs) to take actions beyond answering questions
-    - **Channels** — Deploy the agent to Teams, a SharePoint site, or other channels
-
-3. Consider how declarative agents differ from standalone agents:
-
-    | Feature | Standalone Agent (Agent Builder) | Declarative Agent |
-    |---------|--------------------------------|-------------------|
-    | **Where it runs** | Separate chat interface | Inside Copilot Chat |
-    | **Knowledge sources** | Uploaded files, SharePoint | Uploaded files, SharePoint, Graph connectors |
-    | **Actions** | Limited | Power Automate, APIs, plugins |
-    | **Best for** | Simple Q&A bots | Extending Copilot for specialized workflows |
-
----
-
-### Key Concepts for Agent Building
-
-| Concept | Description |
-|---|---|
 | **Knowledge sources** | Documents the agent uses to answer questions. Up to 20 files (docx, xlsx, pdf, pptx, txt), or a SharePoint site for dynamic content. |
 | **Instructions** | Rules that tell the agent how to behave — tone, format, boundaries. Max 8,000 characters. |
 | **Suggested prompts** | Starter questions shown to users. Help them understand what the agent can do. |
@@ -174,6 +115,4 @@ For more control over agent behavior, you can configure agents using the **Copil
 | **SharePoint grounding** | Connect to a SharePoint site so the agent automatically picks up new/updated documents. |
 | **Declarative agents** | Agents that run inside Copilot Chat as specialized modes — more powerful, with access to Graph connectors and actions. |
 
-> [!TIP]
-> The best agents are focused on a specific domain. An agent that tries to answer everything will answer nothing well. Start narrow, test, and expand.
-
+---

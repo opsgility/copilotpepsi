@@ -27,24 +27,19 @@ Copilot in PowerPoint helps you create professional presentations quickly. You c
 You need to create a presentation for an all-hands meeting about Q4 performance and next quarter's priorities.
 
 1. In **PowerPoint for the web**, create a new blank presentation.
-2. Select the **Copilot** icon in the ribbon (or look for the Copilot prompt in the Home tab).
-3. Select **Create a presentation about...** and enter:
 
-    **Create a presentation for a G&J Pepsi quarterly all-hands meeting. Include slides for: (1) Q4 highlights and key wins, (2) Revenue performance vs. targets by region, (3) Operational excellence updates — warehouse efficiency and safety, (4) Employee spotlight and recognition, (5) Key initiatives for next quarter, (6) Q&A. Use a professional, energetic tone. Include placeholder text where specific data would go.**
+    ```
+    https://powerpoint.cloud.microsoft/
+    ```
+2. Select **Create a presentation about...** (or look for the Copilot prompt in the Home tab) and enter:
 
-4. Review the generated presentation. Copilot should create 8-12 slides with content, layouts, and design elements.
+    ```
+    Create a presentation for a G&J Pepsi quarterly all-hands meeting. Include slides for: (1) Q4 highlights and key wins, (2) Revenue performance vs. targets by region, (3) Operational excellence updates — warehouse efficiency and safety, (4) Employee spotlight and recognition, (5) Key initiatives for next quarter, (6) Q&A. Use a professional, energetic tone. Include placeholder text where specific data would go.
+    ```
 
-5. Open the Copilot pane and ask for enhancements:
+3. If prompted, click **Generate slides** then **Keep it**. 
 
-    **Add a slide after the "Revenue Performance" slide that shows a breakdown by product category. Include a placeholder for a chart and bullet points for top-performing brands.**
-
-6. Try adding speaker notes:
-
-    **Add speaker notes to the first three slides. The notes should include talking points and transitions between slides.**
-
-7. Ask Copilot to improve a specific slide:
-
-    **The "Key Initiatives" slide is too text-heavy. Rewrite it to use short bullet points with action-oriented language. Maximum 5 bullets, each under 10 words.**
+4. Review the generated presentation. Copilot should create 10-30 slides with content, layouts, and design elements.
 
 ---
 
@@ -53,21 +48,15 @@ You need to create a presentation for an all-hands meeting about Q4 performance 
 Transform the route optimization proposal into a presentation for leadership.
 
 1. Create a new blank presentation in **PowerPoint for the web**.
-2. Select the **Copilot** icon and choose **Create a presentation from file...**
+2. Select the **Copilot** icon and choose **Create a new presentation with file...**
 3. Attach the **GJ_Route_Optimization_Proposal.docx** file from your OneDrive.
-4. Enter:
+4. Enter the following and click **Generate new presentation**. 
 
-    **Create a presentation from this route optimization proposal. Target audience: senior leadership. Focus on the business case, expected ROI, implementation timeline, and risk mitigation. Keep it concise — no more than 10 slides.**
+    ```
+    Create a presentation from this route optimization proposal. Target audience: senior leadership. Focus on the business case, expected ROI, implementation timeline, and risk mitigation. Keep it concise — no more than 10 slides.
+    ```
 
-5. Review the generated deck. Copilot should transform the document's sections into visual slides.
-
-6. Refine specific slides using the Copilot pane:
-
-    **The implementation timeline slide would work better as a visual timeline or roadmap. Redesign it with phases and milestone dates.**
-
-7. Ask for a summary slide:
-
-    **Add a closing slide titled "The Ask" that summarizes what we need leadership to approve: budget of $X, timeline of X months, and dedicated project team of X people. Use the details from the original proposal.**
+5. Click **Open presentation** if prmpted. Review the generated deck. Copilot should transform the document's sections into visual slides.
 
 ---
 
@@ -106,31 +95,3 @@ For whichever scenario you choose:
 - **Use Designer** — After Copilot creates content, use PowerPoint's Designer feature (in the ribbon) to apply polished visual layouts.
 
 ---
-
-### Task 4: AI-generated images and visual design (bonus, 10 min)
-
-Copilot in PowerPoint can generate images and enhance your slides visually — no stock photo library needed.
-
-1. Open one of the presentations you created earlier in this exercise (or create a new blank one).
-
-2. Open the **Copilot** pane and enter:
-
-    **Add an image to the title slide that represents beverage distribution — think warehouse, delivery trucks, or retail shelves. Use a professional, corporate style.**
-
-3. If Copilot generates or suggests an image, review it and insert it into the slide.
-
-4. Try enhancing another slide:
-
-    **Redesign the "Key Initiatives" slide to be more visual. Replace the bullet points with an icon-based layout — one icon per initiative with a short label underneath.**
-
-5. Ask Copilot to reorganize the entire deck:
-
-    **Reorganize this presentation so the most impactful content is in the first 5 slides. Move supporting details to an appendix section at the end. Add a clear divider slide between the main content and appendix.**
-
-6. Try adding visual transitions between sections:
-
-    **Add a section divider slide before the "Operational Excellence" section with a relevant visual and the section title.**
-
-> [!TIP]
-> AI-generated images work best when you describe the style, subject, and mood. Be specific: "a modern illustration of a warehouse with delivery trucks in a clean, corporate style" will give better results than "a picture of a warehouse."
-

@@ -20,14 +20,17 @@ Copilot in Excel helps you turn raw data into actionable insights through natura
 - **AutoSave** must be turned on (file must be saved to OneDrive)
 - Select **Copilot** in the Excel ribbon to open the Copilot pane
 
-> [!NOTE]
-> Copilot in Excel has transitioned from **App Skills** to **Agent Mode**. If the Copilot menu shows **Chat** and **App Skills**, select App Skills. If your version only shows Copilot Chat, select **Tools > Agent Mode** to work directly in the workbook.
+>**Note:** Copilot in Excel has transitioned from **App Skills** to **Agent Mode**. If the Copilot menu shows **Chat** and **App Skills**, select App Skills. If your version only shows Copilot Chat, select **Tools > Agent Mode** to work directly in the workbook.
 
 ---
 
 ### Task 1: Analyze sales performance data (20 min)
 
-1. In **Excel for the web**, open **GJ_Q4_Sales_Performance.xlsx** from your OneDrive (**GJ-Workshop** folder).
+1. Open **GJ_Q4_Sales_Performance.xlsx** from your OneDrive (**GJ-Workshop** folder). It will open in **Excel for the web**.
+
+    ```
+    https://excel.cloud.microsoft/
+    ```
 
 2. Take a moment to review the data. The spreadsheet contains columns for:
     - Region, Territory, Sales Rep
@@ -38,27 +41,29 @@ Copilot in Excel helps you turn raw data into actionable insights through natura
 
 3. Ensure the data is formatted as a Table (if not, select the data range and go to **Insert > Table**).
 
-4. Select **Copilot** in the Excel ribbon. Enter:
+4. Select **Copilot** in the **Home** tab of the Excel ribbon. Enter:
 
-    **Summarize the key trends in this Q4 sales data. Which regions are performing above target? Which are below? What product categories are driving the most revenue?**
+    ```
+    Summarize the key trends in this Q4 sales data. Which regions are performing above target? Which are below? What product categories are driving the most revenue?
+    ```
 
 5. Review the analysis. Ask a follow-up:
 
-    **Create a bar chart comparing total Q4 revenue by region. Sort from highest to lowest.**
+    ```
+    Create and insert a bar chart comparing total Q4 revenue by region. Sort from highest to lowest.
+    ```
 
-6. If Copilot offers to insert the chart into a new sheet, select that option.
+6. Ask Copilot to dig deeper:
 
-7. Ask Copilot to dig deeper:
+    ```
+    Which sales reps had the biggest positive variance vs. target? And which had the biggest negative variance? Show me the top 5 and bottom 5.
+    ```
 
-    **Which sales reps had the biggest positive variance vs. target? And which had the biggest negative variance? Show me the top 5 and bottom 5.**
+7. Now ask Copilot to help with formulas:
 
-8. Insert the results.
-
-9. Now ask Copilot to help with formulas:
-
-    **Add a new column called "Performance Rating" that rates each rep as "Exceeds" if their variance is above 5%, "Meets" if between -5% and 5%, and "Below" if more than -5% below target.**
-
-10. Insert the formula column into the workbook.
+    ```
+    Add a new column called "Performance Rating" that rates each rep as "Exceeds" if their variance is above 5%, "Meets" if between -5% and 5%, and "Below" if more than -5% below target.
+    ```
 
 ---
 
@@ -73,26 +78,30 @@ Copilot in Excel helps you turn raw data into actionable insights through natura
     - Labor Hours, Overtime Hours
     - Incidents Reported
 
-3. Select **Copilot** in the ribbon and enter:
+3. Select **Copilot** in the **Home** tab of the ribbon and enter:
 
-    **Analyze this warehouse operations data. Which warehouses have the highest damage rates? Is there a correlation between overtime hours and damage rates? Summarize the key findings.**
+    ```
+    Analyze this warehouse operations data. Which warehouses have the highest damage rates? Is there a correlation between overtime hours and damage rates? Summarize the key findings.
+    ```
 
 4. Ask for a visualization:
 
-    **Create a line chart showing the trend of on-time delivery percentage by warehouse location across all months.**
+    ```
+    Create and insert a line chart showing the trend of on-time delivery percentage by warehouse location across all months.
+    ```
 
 5. Ask Copilot for actionable insights:
 
-    **Based on this data, which warehouse should be prioritized for operational improvement? What specific metrics support that recommendation?**
+    ```
+    Based on this data, which warehouse should be prioritized for operational improvement? What specific metrics support that recommendation?
+    ```
 
 6. Ask for one more analysis:
 
-    **Create a pivot table showing average cases shipped, damage rate, and on-time delivery percentage by warehouse location. Which location has the best overall performance?**
-
-7. Insert any results that Copilot offers.
-
-> [!WARNING]
-> Copilot in Excel may occasionally struggle with complex multi-step requests. If it can't complete a request, try breaking it into smaller parts (e.g., "Create the chart" separately from "Add the formula column").
+    ```
+    Create and insert a pivot table showing average cases shipped, damage rate, and on-time delivery percentage by warehouse location. Which location has the best overall performance?
+    ```
+>**Warning:** Copilot in Excel may occasionally struggle with complex multi-step requests. If it can't complete a request, try breaking it into smaller parts (e.g., "Create the chart" separately from "Add the formula column").
 
 ---
 
@@ -117,7 +126,7 @@ Using either the sales or warehouse data, ask Copilot a question relevant to you
 
 Pick one, submit it, and iterate to refine the output.
 
----
+<!-- ---
 
 ### Advanced: Python in Excel with Copilot (bonus, 10 min)
 
@@ -130,9 +139,11 @@ If Python in Excel is available in your environment:
 
 2. Select a cell outside the data table. In the **Formulas** tab, select **Insert Python**.
 
-3. Open the **Copilot** pane and enter:
+3. Open the **Copilot** pane in the **Home** tab and enter:
 
-    **Using Python, create a correlation analysis between Q4 Total revenue and Variance for each region. Show the results as a heatmap.**
+    ```
+    Using Python, create a correlation analysis between Q4 Total revenue and Variance for each region. Show the results as a heatmap.
+    ```
 
 4. If Copilot generates Python code, review it and select **Apply** to run it in the workbook.
 
@@ -141,5 +152,4 @@ If Python in Excel is available in your environment:
     **Using Python, perform a simple linear regression to predict which sales reps are likely to miss their targets next quarter based on their Q4 trend. Show the results as a scatter plot with a trend line.**
 
 > [!TIP]
-> Python in Excel is powerful for statistical analysis, machine learning, and custom visualizations that go beyond standard Excel charts. Copilot can generate the Python code for you — no programming experience required.
-
+> Python in Excel is powerful for statistical analysis, machine learning, and custom visualizations that go beyond standard Excel charts. Copilot can generate the Python code for you — no programming experience required. -->
