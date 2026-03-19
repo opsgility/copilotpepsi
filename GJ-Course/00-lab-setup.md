@@ -16,7 +16,7 @@ In this workshop, you'll use Microsoft 365 Copilot across Copilot Chat, Word, Ex
 1. In the Windows taskbar, select **Microsoft Edge**.
 2. Navigate to the following URL to download the resource files:
 
-    **[https://github.com/opsgility/copilot-pepsi/raw/refs/heads/main/GJ-ResourceFiles/ResourceFiles.zip](https://github.com/opsgility/copilot-pepsi/raw/refs/heads/main/GJ-ResourceFiles/ResourceFiles.zip)**
+    **[[https://github.com/opsgility/copilot-pepsi/raw/refs/heads/main/GJ-ResourceFiles/ResourceFiles.zip](https://github.com/opsgility/copilot-pepsi/raw/refs/heads/main/GJ-ResourceFiles/ResourceFiles.zip)](https://github.com/opsgility/copilotpepsi/blob/main/GJ-ResourceFiles/ResourceFiles.zip)**
 
 3. Once the download completes, open **File Explorer** and navigate to your **Downloads** folder.
 4. Right-click the **ResourceFiles.zip** file and select **Extract All...**.
