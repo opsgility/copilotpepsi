@@ -99,3 +99,38 @@ Pick one scenario relevant to your role:
 - **Operations:** Draft standard operating procedures for a warehouse safety topic
 - **Supply Chain:** Summarize the route optimization proposal into a vendor briefing
 
+---
+
+### Task 4: Compare documents and translate content (bonus, 10 min)
+
+**Part A: Compare two documents**
+
+Copilot can help you compare two documents and identify differences, conflicts, or complementary information.
+
+1. In **Copilot Chat** (Work mode), attach both the **GJ_Route_Optimization_Proposal.docx** and the **GJ_IT_Infrastructure_Upgrade_Plan.docx** files.
+
+2. Enter:
+
+    **Compare these two documents. Are there any overlapping initiatives, conflicting timelines, or shared dependencies? Summarize the key differences and any areas where the two projects would need to coordinate.**
+
+3. Review the comparison. Ask a follow-up:
+
+    **Create a table showing the timeline, budget, and key stakeholders for each project side by side.**
+
+**Part B: Translate content for different audiences**
+
+1. Open the **GJ_New_Hire_Onboarding_Guide.docx** in **Word for the web**.
+
+2. Open the Copilot pane and enter:
+
+    **Translate the key points of this onboarding guide into Spanish. Keep the formatting with headers and bullet points. Focus on the first-week checklist and key contacts sections.**
+
+3. Copy the translated output into a new document if needed.
+
+4. Try another language relevant to your workforce:
+
+    **Translate the safety and compliance section into [language]. Use simple, clear language suitable for warehouse staff.**
+
+> [!TIP]
+> Copilot can translate content into most major languages. This is especially useful for organizations with multilingual workforces — create translated versions of policies, guides, and announcements without hiring a translator.
+

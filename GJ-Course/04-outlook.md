@@ -114,3 +114,40 @@ Write your own prompt for an email relevant to your actual role. Here are starte
 
 Draft it, iterate at least once, and use Coaching to polish it before finalizing.
 
+---
+
+### Task 5: Prioritize your inbox and manage your schedule (bonus, 10 min)
+
+**Part A: Inbox prioritization**
+
+Copilot can help you triage a busy inbox and identify what needs your attention first.
+
+1. Open **Copilot Chat** (Work mode) in Microsoft 365 or Teams.
+
+2. Enter:
+
+    **Review my inbox from the past 48 hours. Which emails need my response? Prioritize them by urgency: Critical (needs response today), Important (this week), and FYI (no action needed). Include a one-line summary of each.**
+
+3. Review the prioritized list. Follow up:
+
+    **For the critical items, draft a brief reply to each. Keep the replies under 3 sentences and match the tone of the original sender.**
+
+**Part B: Schedule management**
+
+Copilot can help you prepare for your day by reviewing your calendar.
+
+1. In **Copilot Chat** (Work mode), enter:
+
+    **Look at my calendar for today and tomorrow. What meetings do I have? For any meetings with agendas or shared documents, give me a one-line summary of what each meeting is about and what I should prepare.**
+
+2. Follow up with:
+
+    **I need to find 30 minutes today to work on the quarterly business review. Based on my calendar, when is the best available slot?**
+
+3. Try combining inbox and calendar:
+
+    **Are there any emails in my inbox that relate to meetings on my calendar this week? Summarize the connections so I can walk into each meeting prepared.**
+
+> [!TIP]
+> Making inbox triage and calendar review part of your morning routine with Copilot can save 15–20 minutes daily. The key is to be specific about the time window and the type of prioritization you need.
+

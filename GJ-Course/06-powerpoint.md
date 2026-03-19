@@ -105,3 +105,32 @@ For whichever scenario you choose:
 - **Iterate slide by slide** — After the initial creation, refine individual slides rather than asking Copilot to redo the whole deck.
 - **Use Designer** — After Copilot creates content, use PowerPoint's Designer feature (in the ribbon) to apply polished visual layouts.
 
+---
+
+### Task 4: AI-generated images and visual design (bonus, 10 min)
+
+Copilot in PowerPoint can generate images and enhance your slides visually — no stock photo library needed.
+
+1. Open one of the presentations you created earlier in this exercise (or create a new blank one).
+
+2. Open the **Copilot** pane and enter:
+
+    **Add an image to the title slide that represents beverage distribution — think warehouse, delivery trucks, or retail shelves. Use a professional, corporate style.**
+
+3. If Copilot generates or suggests an image, review it and insert it into the slide.
+
+4. Try enhancing another slide:
+
+    **Redesign the "Key Initiatives" slide to be more visual. Replace the bullet points with an icon-based layout — one icon per initiative with a short label underneath.**
+
+5. Ask Copilot to reorganize the entire deck:
+
+    **Reorganize this presentation so the most impactful content is in the first 5 slides. Move supporting details to an appendix section at the end. Add a clear divider slide between the main content and appendix.**
+
+6. Try adding visual transitions between sections:
+
+    **Add a section divider slide before the "Operational Excellence" section with a relevant visual and the section title.**
+
+> [!TIP]
+> AI-generated images work best when you describe the style, subject, and mood. Be specific: "a modern illustration of a warehouse with delivery trucks in a clean, corporate style" will give better results than "a picture of a warehouse."
+

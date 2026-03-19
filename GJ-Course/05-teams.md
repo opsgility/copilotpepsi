@@ -112,3 +112,51 @@ Pick a scenario relevant to your role:
 - **Operations:** Create a warehouse-specific action item list from the supply chain review
 - **Sales:** Extract any revenue, target, or customer-related discussions from the leadership meeting
 
+---
+
+### Task 4: Channel and chat summaries (bonus, 10 min)
+
+Copilot in Teams can summarize not just meetings, but also channel conversations and group chats — helping you catch up on discussions you missed.
+
+**Part A: Channel summaries**
+
+1. Open a **Teams channel** that has had recent activity (at least 5–10 posts).
+
+2. Select the **Copilot** icon at the top of the channel.
+
+3. Enter:
+
+    **Summarize the key discussions in this channel from the past week. What decisions were made? What questions are still open? What topics got the most engagement?**
+
+4. Follow up with a targeted question:
+
+    **Were there any requests or action items directed at [your department]?**
+
+**Part B: Group chat summaries**
+
+1. Open a **group chat** in Teams that has 15+ messages.
+
+2. Select the **Copilot** icon at the top of the chat.
+
+3. Enter:
+
+    **Summarize this chat thread. What was the main topic? Were any decisions made or next steps agreed on?**
+
+4. Try a more targeted prompt:
+
+    **What questions were asked in this chat that haven't been answered yet?**
+
+**Part C: Real-time meeting assistance**
+
+If you're in a **live Teams meeting** with transcription enabled:
+
+1. Open the **Copilot** pane during the meeting.
+2. Try these real-time prompts:
+    - "What have I missed so far?"
+    - "Summarize the discussion about [topic]"
+    - "What action items have been mentioned so far?"
+    - "What questions have been raised that haven't been answered?"
+
+> [!NOTE]
+> Copilot in Teams channels can summarize up to 30 days of content. It only accesses channels and chats you already have access to — it follows the same permissions model as the rest of Microsoft 365.
+

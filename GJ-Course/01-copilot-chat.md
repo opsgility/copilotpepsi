@@ -90,6 +90,53 @@ Practice using Copilot Chat for tasks relevant to your specific department. Choo
 
 Pick one prompt, submit it, and iterate at least once to refine the output.
 
+---
+
+### Task 4: Copilot Pages — Organize and share AI-generated content (bonus, 10 min)
+
+Copilot Pages let you turn a Copilot Chat response into a persistent, editable page that you can share with colleagues and continue to refine with AI.
+
+1. In **Copilot Chat** (Work mode), attach the **GJ_Quarterly_Business_Review.docx** file and enter:
+
+    **Create a summary of Q4 performance with sections for Revenue, Operations, People, and Risk. Use bullet points under each section. Highlight the top concern in each area.**
+
+2. Review the response. Select the **Edit in Pages** icon (or "Create a page" if prompted) to turn this response into a Copilot Page.
+
+3. In the Page view, you can:
+    - Edit the content directly — add your own notes, reformat sections
+    - Continue prompting Copilot to refine specific sections
+    - Share the page with colleagues by selecting **Share** in the top-right corner
+
+4. Try adding to the page with a follow-up prompt:
+
+    **Add a "Next Steps" section at the bottom with 3 recommended actions for Q1, based on the risks identified above.**
+
+5. Share the page with a colleague or save it for your own reference.
+
+> [!TIP]
+> Pages are ideal for collaborative work — think of them as AI-assisted shared documents. Use them for meeting prep, project briefs, or any content you want to co-edit with your team.
+
+---
+
+### Task 5: Daily catch-up workflow (bonus, 5 min)
+
+One of the most impactful ways to use Copilot is as part of your daily routine. Try this workflow:
+
+1. In **Copilot Chat** (Work mode), enter:
+
+    **What happened yesterday that I should know about? Summarize any important emails, meeting notes, and chat messages from the last 24 hours. Highlight anything that needs my attention or a response.**
+
+2. Review the catch-up summary. Follow up on anything urgent:
+
+    **Were there any action items assigned to me in yesterday's meetings or email threads?**
+
+3. Plan your day:
+
+    **Based on my calendar for today and the items from yesterday that need follow-up, suggest a prioritized task list for today.**
+
+> [!TIP]
+> Make this a daily habit. Open Copilot Chat first thing in the morning, run a catch-up prompt, and start your day informed. This single workflow can save 15–20 minutes every morning.
+
 > [!TIP]
 > **Pro tip:** You can switch between Web and Work modes within the same conversation. Use Web for external research and switch to Work when you need to reference your organizational files.
 

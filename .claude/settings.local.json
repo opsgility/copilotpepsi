@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \":*)",
+      "Bash(python -c \":*)",
+      "Bash(PYTHONIOENCODING=utf-8 python -c \":*)",
+      "Bash(PYTHONIOENCODING=utf-8 python3 -c \"\nimport sys, io\nsys.stdout = io.TextIOWrapper\\(sys.stdout.buffer, encoding='utf-8'\\)\nfrom pptx import Presentation\n\nprs = Presentation\\('GJ-Course/GJ_Pepsi_Copilot_Workshop.pptx'\\)\nprint\\(f'Total slides: {len\\(prs.slides\\)}'\\)\nprint\\(\\)\nfor i, slide in enumerate\\(prs.slides, 1\\):\n    layout_name = slide.slide_layout.name if slide.slide_layout else 'Unknown'\n    texts = []\n    for shape in slide.shapes:\n        if shape.has_text_frame:\n            for para in shape.text_frame.paragraphs:\n                t = para.text.strip\\(\\)\n                if t:\n                    texts.append\\(t\\)\n    title = texts[0] if texts else '\\(empty\\)'\n    print\\(f'Slide {i:2d} | Layout: {layout_name:30s} | Title: {title[:80]}'\\)\n\")",
+      "Bash(PYTHONIOENCODING=utf-8 python3 update_pptx.py)"
+    ]
+  }
+}

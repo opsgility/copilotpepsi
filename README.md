@@ -52,10 +52,12 @@ You're ready to begin the exercises.
 
 ---
 
-## Exercises
+## Workshop Sessions
 
-| # | Exercise | App | Duration |
+| # | Session | App / Topic | Duration |
 |---|---|---|---|
+| — | **[Welcome & Introductions](GJ-Course/00a-welcome.md)** | Overview | 15 min |
+| — | **[Copilot Fundamentals — Prompting Framework](GJ-Course/00b-copilot-fundamentals.md)** | Prompting | 30 min |
 | 1 | **[Copilot Chat: Research, Brainstorm & Summarize](GJ-Course/01-copilot-chat.md)** | Copilot Chat | 30 min |
 | 2 | **[Word: Draft, Summarize & Refine Documents](GJ-Course/02-word.md)** | Word | 45 min |
 | 3 | **[Excel: Analyze Data & Visualize Insights](GJ-Course/03-excel.md)** | Excel | 45 min |
@@ -63,6 +65,7 @@ You're ready to begin the exercises.
 | 5 | **[Teams: Meeting Recaps & Action Items](GJ-Course/05-teams.md)** | Teams | 45 min |
 | 6 | **[PowerPoint: Create Presentations with AI](GJ-Course/06-powerpoint.md)** | PowerPoint | 45 min |
 | 7 | **[Building Custom Agents in Copilot Studio](GJ-Course/07-agents.md)** | Copilot Studio | 45 min |
+| — | **[Wrap-Up & Q&A](GJ-Course/08-wrap-up.md)** | Review | 30 min |
 
 ## Resource Files
 

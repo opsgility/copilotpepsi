@@ -117,3 +117,29 @@ Using either the sales or warehouse data, ask Copilot a question relevant to you
 
 Pick one, submit it, and iterate to refine the output.
 
+---
+
+### Advanced: Python in Excel with Copilot (bonus, 10 min)
+
+> [!NOTE]
+> Python in Excel is available in Excel for Windows (Microsoft 365 Insiders and rolling out broadly). If your version supports it, you can use Copilot to generate Python code that runs directly in your workbook for advanced analytics.
+
+If Python in Excel is available in your environment:
+
+1. Open **GJ_Q4_Sales_Performance.xlsx** in **Excel for Windows** (desktop app).
+
+2. Select a cell outside the data table. In the **Formulas** tab, select **Insert Python**.
+
+3. Open the **Copilot** pane and enter:
+
+    **Using Python, create a correlation analysis between Q4 Total revenue and Variance for each region. Show the results as a heatmap.**
+
+4. If Copilot generates Python code, review it and select **Apply** to run it in the workbook.
+
+5. Try another advanced analysis:
+
+    **Using Python, perform a simple linear regression to predict which sales reps are likely to miss their targets next quarter based on their Q4 trend. Show the results as a scatter plot with a trend line.**
+
+> [!TIP]
+> Python in Excel is powerful for statistical analysis, machine learning, and custom visualizations that go beyond standard Excel charts. Copilot can generate the Python code for you — no programming experience required.
+

@@ -202,3 +202,41 @@ For each demo below, the trainer performs the demo live while narrating. Demos a
 - **Connect to their world** — after each demo, briefly note how this applies across departments (Accounting, HR, IT, Sales, Ops, Supply Chain)
 - **Keep it to 3-5 minutes** — demos are appetizers, not the main course. Exercises are where learning happens.
 - **Use their data** — always demo with the G&J resource files, not generic examples. This makes it immediately relatable.
+
+---
+
+## Demo 1A: Copilot Pages (Optional)
+**When:** During or after Exercise 1, if time allows
+**Duration:** 3 minutes
+
+### Steps
+1. In Copilot Chat (Work mode), attach the quarterly business review
+2. Ask: "Summarize Q4 performance with sections for Revenue, Operations, People, and Risk"
+3. When the response appears, click "Edit in Pages" (or "Create a page")
+4. Show the editable page — make a small change, add a note
+5. Click Share — show the sharing options
+6. In the page, ask Copilot: "Add a Next Steps section with 3 recommended actions for Q1"
+7. Show how the page updates with the new content
+
+### Talking Points
+- Pages turn Copilot responses into persistent, editable, shareable documents
+- Great for meeting prep, project briefs, and collaborative content
+- Pages update live — multiple people can edit and prompt at the same time
+- Think of Pages as the bridge between a Copilot conversation and a shared document
+
+---
+
+## Demo 2A: Document Comparison in Word (Optional)
+**When:** During or after Exercise 2, if time allows
+**Duration:** 3 minutes
+
+### Steps
+1. In Copilot Chat (Work mode), attach both the route optimization proposal and the IT infrastructure plan
+2. Ask: "Compare these two documents. Are there overlapping timelines, shared dependencies, or conflicting resource needs?"
+3. Show the comparison output
+4. Ask: "Create a side-by-side table comparing timeline, budget, and stakeholders for each project"
+
+### Talking Points
+- Copilot can compare any two documents you have access to
+- Useful for finding conflicts between project plans, policy versions, or proposals
+- Saves hours of manual side-by-side reading
